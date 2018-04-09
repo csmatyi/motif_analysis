@@ -5,7 +5,7 @@ This script is run on a whole genome sequence, and calculates the score for all 
 
 The script is run the following way:
 
-python motif_analysis.py -i <inputfile> -o <outputfile> -s <species name> -n <motif length>
+python motif_analysis.py -i \<inputfile\> -o <outputfile> -s <species name> -n <motif length>
   
 where the flags mean the follwoing things:
 
