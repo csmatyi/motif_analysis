@@ -7,7 +7,7 @@ The script is run the following way:
 
 python motif_analysis.py -i \<inputfile\> -o \<outputfile\> -s \<species name\> -n \<motif length\>
   
-where the flags mean the follwoing things:
+where the flags mean the following things:
 
 -i : the input whole genome sequence in fasta format.<br/>
 -o : the output statistics file with the number of contigs, the bp distribution, and the motif sequence, the observed and expected occurrences as well as the score value.<br/>
