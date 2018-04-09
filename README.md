@@ -9,10 +9,10 @@ python motif_analysis.py -i \<inputfile\> -o \<outputfile\> -s \<species name\> 
   
 where the flags mean the follwoing things:
 
--i : the input whole genome sequence in fasta format.
--o : the output statistics file with the number of contigs, the bp distribution, and the motif sequence, the observed and expected occurrences as well as the score value.
--s : the species name
--n : the motif length (usually between 5 and 12 bp)
+-i : the input whole genome sequence in fasta format.<br/>
+-o : the output statistics file with the number of contigs, the bp distribution, and the motif sequence, the observed and expected occurrences as well as the score value.<br/>
+-s : the species name<br/>
+-n : the motif length (usually between 5 and 12 bp)<br/>
 
 A sample of the output file is as follows:
 
