@@ -1,5 +1,5 @@
 # motif_analysis
-Python script for motif analysis for Cserhati, 2018
+Python script for motif analysis for Cserhati, 2019
 
 This script is run on a whole genome sequence, and calculates the score for all possible motifs of length n, ordered in lexicographic order. Since there are four bases, there are 4<sup>n</sup> possible motifs. The score of any given motif is S = (O + E)/(O - E), where O is the observed occurrence of a given motif, and E is its expected occurrence based on the base pair background distribution, which is also determined by the script. S then takes a value between -1 and 1 for under-represented and over-represented motifs, respectively.
 
